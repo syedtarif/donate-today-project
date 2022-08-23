@@ -125,7 +125,7 @@ h3 {
 .donate-plan {
     display: flex;
     justify-content: center;
-    margin: 40px 0 40px;
+    margin: 40px 0 0;
 }
 
 #food-card {
@@ -139,4 +139,28 @@ h3 {
 
 #education-card {
     background-color: #21a87418;
+}
+
+#form {
+    height: 200px;
+    width: 900px;
+    background-color: #16727731;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+.form-button {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+}
+
+#subscribe {
+    background-image: linear-gradient(120deg, #0c427a, #21A875);
+    color: white;
 }
