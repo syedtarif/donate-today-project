@@ -12,6 +12,14 @@ h1 {
     font-size: 80px;
 }
 
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
 .header-part {
     background-image: url(images/donation13.jpg);
     height: 780px;
@@ -37,17 +45,21 @@ h1 {
     font-weight: 700;
     font-size: 22px;
     /* background-color: rgb(2, 2, 106); */
-    background-image: linear-gradient(120deg, #0c427a, #d4992c);
+    /* background-image: linear-gradient(120deg, #0c427a, #d4992c); */
+    background-image: linear-gradient(120deg, #0c427a, #21A875);
     padding: 20px 15px;
     border-radius: 15px;
 }
 
 .section {
-    height: 700px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #other-amount-part {
-    width: 52%;
+    width: 90%;
     /* margin: 100px 0 50px 2px; */
     margin: auto;
     margin-top: 100px;
@@ -65,14 +77,15 @@ h1 {
 }
 
 .amount {
-    background-color: gray;
-    color: white;
+    background-color: rgba(128, 128, 128, 0.081);
+    color: rgb(38, 36, 36);
     height: 120px;
     width: 150px;
     margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
     /* margin: auto; */
     /* text-align: center; */
     /* margin-bottom: 20px; */
@@ -81,13 +94,49 @@ h1 {
 .amount-part {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
-.donate-part {
+#unique-amount {
+    background-color: #16727731;
+    border: 5px solid #167277;
+    color: #167277;
+}
+
+.center-align {
     text-align: center;
 
 }
 
-h2 {
-    font-size: 40px;
+.p-text {
+    color: gray;
+    font-size: 18px;
+    /* margin-bottom: 30px; */
+}
+
+.single-donate-plan {
+    height: 300px;
+    width: 350px;
+    padding: 70px 20px 0 20px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.donate-plan {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 40px;
+}
+
+#food-card {
+    /* #0c427a, #21A875 */
+    background-color: #21a87416;
+}
+
+#shelter-card {
+    background-color: #16727719;
+}
+
+#education-card {
+    background-color: #21a87418;
 }
