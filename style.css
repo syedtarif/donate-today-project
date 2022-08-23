@@ -44,8 +44,6 @@ h3 {
     color: white;
     font-weight: 700;
     font-size: 22px;
-    /* background-color: rgb(2, 2, 106); */
-    /* background-image: linear-gradient(120deg, #0c427a, #d4992c); */
     background-image: linear-gradient(120deg, #0c427a, #21A875);
     padding: 20px 15px;
     border-radius: 15px;
@@ -60,11 +58,9 @@ h3 {
 
 #other-amount-part {
     width: 90%;
-    /* margin: 100px 0 50px 2px; */
     margin: auto;
     margin-top: 100px;
     margin-bottom: 50px;
-    /* margin-left: 70px; */
     padding-left: 15px;
 }
 
@@ -86,9 +82,6 @@ h3 {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    /* margin: auto; */
-    /* text-align: center; */
-    /* margin-bottom: 20px; */
 }
 
 .amount-part {
@@ -111,7 +104,6 @@ h3 {
 .p-text {
     color: gray;
     font-size: 18px;
-    /* margin-bottom: 30px; */
 }
 
 .single-donate-plan {
@@ -129,7 +121,6 @@ h3 {
 }
 
 #food-card {
-    /* #0c427a, #21A875 */
     background-color: #21a87416;
 }
 
@@ -163,4 +154,36 @@ h3 {
 #subscribe {
     background-image: linear-gradient(120deg, #0c427a, #21A875);
     color: white;
+}
+
+.footer {
+    font-family: 'Great Vibes', cursive;
+    height: 200px;
+    background-image: linear-gradient(12deg, #0c427a, #21A875);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.why-us-card {
+    font-family: 'Great Vibes', cursive;
+    background-image: linear-gradient(120deg, #0c417ab4, #21a874b9);
+    box-shadow: 20px 20px 40px 10px #0c417a82;
+    width: 400px;
+    height: 350px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+#why-us-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
