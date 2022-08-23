@@ -33,6 +33,7 @@ h1 {
 
 .button {
     text-decoration: none;
+    color: white;
     font-weight: 700;
     font-size: 22px;
     /* background-color: rgb(2, 2, 106); */
@@ -41,6 +42,52 @@ h1 {
     border-radius: 15px;
 }
 
+.section {
+    height: 700px;
+}
+
+#other-amount-part {
+    width: 52%;
+    /* margin: 100px 0 50px 2px; */
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* margin-left: 70px; */
+    padding-left: 15px;
+}
+
+#other-amount-part p {
+    text-align: center;
+}
+
 .header-text p {
     margin-bottom: 50px;
+}
+
+.amount {
+    background-color: gray;
+    color: white;
+    height: 120px;
+    width: 150px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* margin-bottom: 20px; */
+}
+
+.amount-part {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-part {
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 40px;
 }
